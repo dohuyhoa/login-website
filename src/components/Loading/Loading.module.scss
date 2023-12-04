@@ -1,0 +1,21 @@
+.custom-loading-page .modal-content {
+    transform: translateY(-50%) !important;
+    text-align: center;
+    background-color: transparent !important;
+    border: none;
+    width: fit-content !important;
+}
+
+.spinner-border {
+    width: 80px;
+    height: 80px;
+    border-width: 6px;
+}
+
+#welcome .spinner-border {
+    width: 40px;
+    height: 40px;
+    border-width: 4px;
+    border-color: blue;
+    border-right-color: transparent;
+}
